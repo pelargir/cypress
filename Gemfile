@@ -10,7 +10,7 @@ gem 'quality-measure-engine', :git => 'https://github.com/pophealth/quality-meas
 
 #gem 'quality-measure-engine', :path => '../quality-measure-engine'
 #gem 'quality-measure-engine', '~> 2.4.0'
-gem 'health-data-standards',:git => 'https://github.com/projectcypress/health-data-standards.git', :branch => 'develop'
+gem 'health-data-standards',:git => 'https://github.com/pelargir/health-data-standards.git', :branch => 'medaxion'
 #gem 'health-data-standards', :path => '../health-data-standards'
 
 #gem 'health-data-standards', '~> 3.1.1'
