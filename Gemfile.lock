@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/pelargir/health-data-standards.git
-  revision: affe1df52c19f56027a4a07e0837e712b87d961a
+  revision: b580413b80434ef5959b2f3d4751ebedd7d62f94
   branch: medaxion
   specs:
-    health-data-standards (3.2.5)
+    health-data-standards (3.2.6)
       activesupport (~> 3.2.9)
       builder (~> 3.0.0)
       erubis (~> 2.7.0)
