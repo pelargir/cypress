@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/pelargir/health-data-standards.git
+  remote: git://github.com/pelargir/health-data-standards.git
   revision: affe1df52c19f56027a4a07e0837e712b87d961a
   branch: medaxion
   specs:
@@ -16,7 +16,7 @@ GIT
       uuid (~> 2.3.5)
 
 GIT
-  remote: https://github.com/pophealth/quality-measure-engine.git
+  remote: git://github.com/pophealth/quality-measure-engine.git
   revision: 90afa5a37f6c181479946c39c589e6032d71d530
   branch: develop
   specs:
@@ -27,17 +27,6 @@ GIT
       nokogiri (~> 1.5.5)
       rubyXL (~> 1.2.10)
       rubyzip (~> 0.9.9)
-
-GIT
-  remote: https://github.com/rdingwell/delayed_job_mongoid_web.git
-  revision: c969ae362f2dedf325d18eb805d30c71c0ad0b1e
-  branch: develop
-  specs:
-    delayed_job_mongoid_web (1.1.5)
-      delayed_job_mongoid (>= 2.0.0)
-      haml (~> 3.1.3)
-      rdoc
-      sinatra (>= 0.9.2)
 
 GEM
   remote: http://rubygems.org/
@@ -107,7 +96,6 @@ GEM
     eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    haml (3.1.8)
     highline (1.6.18)
     hike (1.2.2)
     i18n (0.6.4)
@@ -165,8 +153,6 @@ GEM
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
-    rack-protection (1.5.0)
-      rack
     rack-ssl (1.3.3)
       rack
     rack-test (0.6.2)
@@ -206,10 +192,6 @@ GEM
       multi_json (~> 1.0)
       simplecov-html (~> 0.7.1)
     simplecov-html (0.7.1)
-    sinatra (1.3.6)
-      rack (~> 1.4)
-      rack-protection (~> 1.3)
-      tilt (~> 1.3, >= 1.3.3)
     slop (3.4.4)
     sprockets (2.2.2)
       hike (~> 1.2)
@@ -259,7 +241,6 @@ DEPENDENCIES
   carrierwave
   carrierwave-mongoid
   coffee-rails
-  delayed_job_mongoid_web!
   devise (~> 2.0)
   health-data-standards!
   highline
