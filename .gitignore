@@ -1,5 +1,8 @@
 lantana
 .bundle
+*.sublime-project
+*.sublime-workspace
+data
 Gemfile.lock
 bundles
 db/
